@@ -29,6 +29,7 @@
                                 
                                 p {
                                     line-height: 2;
+                                    font-size:1.5rem;
                                 }
                                 /* Navbar */
                                 
@@ -87,7 +88,7 @@
                                 }
                                 
                                 .p-feature {
-                                    font-size: 1.305rem;
+                                    font-size: 1.355rem;
                                     line-height: 1.6;
                                     color: #150485;
                                 }
