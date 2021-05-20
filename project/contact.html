@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Book My Venue</title>
+
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script defer src="fontawesome/js/all.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <section id="navbar-section">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">Book My Venue</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item navbar-custom">
+                        <a id="link" class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- Contact-Section -->
+    <section id="contact-section">
+        <h1 class="reach">Contact Us</h1>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+                <div class="form-group col-md-8">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-8">
+                    <label for="inputAddress">ADDRESS</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputName">EVENT NAME</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Eg. wedding , birthday etc">
+                </div>
+                <div class="form-group">
+                    <label for="Event date">EVENT DATE</label>
+                    <input type="date" class="form-control" id="inputName" placeholder="Event date">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputGuests">Estimated Guests</label>
+                <input type="text" class="form-control" id="inputGuests" placeholder="Eg. 50, 100,500 etc">
+            </div>
+            <div class="form-group">
+                <label for="inputGuests">HOW MANY DAYS YOU WANT TO BOOK OUR VENUE</label>
+                <input type="text" class="form-control" id="inputGuests" placeholder="Eg. 1,2,3,4 etc">
+            </div>
+            <div class="form-group">
+                <div class="form-group col-md-2">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="city name">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">PINCODE</label>
+                    <input type="text" class="form-control" id="inputZip" placeholder="Eg. 423123">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+          Check me out
+          </label>
+                </div>
+                <!-- <div class="form-group col-md-4">
+          <label for="inputState">State</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div> -->
+            </div>
+            <button type="submit" class="btn btn-primary">SUBMIT!</button>
+        </form>
+        <h1 class="reach">Reach Us</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="360" height="360" id="gmap_canvas" src="https://maps.google.com/maps?q=tilda%2C%20newra&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
+                    </div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 360px;
+                            width: 360px;
+                        }
+                        
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none!important;
+                            height: 360px;
+                            width: 360px;
+                        }
+                    </style>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <i class="fas fa-map-marker-alt"></i>&nbsp; TILDA NEWRA RAIPUR<br>Contact us on our number<br>
+                <br>
+                <i class="fas fa-phone-square-alt"></i>&nbsp; 987945645<br>
+                <br>
+                <i class="fas fa-phone-square-alt"></i>&nbsp; 987945645<br>
+                <br>
+                <i class="fas fa-envelope-square"></i>&nbsp;bookmyvenue@gmail.com
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer-icon">
+            <i class="ic fas fa-envelope fa-2x"></i>
+            <a href="https://www.instagram.com/book.my.venue/?hl=en"><i class="ic fab fa-instagram fa-2x"></i></a>
+            <i class="ic fab fa-facebook-square fa-2x"></i>
+        </div>
+        <div class="footer-link">
+            <a class="foot-link" href="about.html">About</a>
+            <a class="foot-link" href="https://forms.gle/ALYgMKSB9wD1b52t6">Need Help</a>
+            <a class="foot-link" href="contact.html">Contact</a>
+        </div>
+        <hr>
+        <p class="c-font-oswald c-font-14">
+            <b>copyright </b><i class="far fa-copyright"></i><b>bookmyvenue</b>
+            <br>
+            <b>Designed By</b> <a href="https://www.instagram.com/vaibhavi__09/?hl=en"><i class="fab fa-instagram"></i><b>Vaibhav Verma</b></a>
+        </p>
+    </footer>
+
+</body>

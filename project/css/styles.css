@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: #212529;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: #0f3057;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3 {
+    color: #070d59;
+}
+
+p {
+    line-height: 2;
+}
+
+
+/* Navbar */
+
+.navbar {
+    padding: 3% 8%;
+    background-image: linear-gradient(#069ce2, #fff);
+}
+
+.nav-link {
+    font-size: 1.15rem;
+    margin: auto 1rem;
+    color: #000;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: #150485;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+    color: #000;
+}
+
+.navbar-brand:hover {
+    color: #150485;
+}
+
+
+/* image-carousel */
+
+
+/* Features section */
+
+#features {
+    padding: 8% 10% 1%;
+    text-align: center;
+}
+
+.col-lg-4 {
+    padding-bottom: 10%;
+}
+
+.h1-feature {
+    padding-bottom: 8%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    color: #070d59;
+}
+
+.icon {
+    color: #070d59;
+    margin-bottom: 5%;
+}
+
+.h3-feature {
+    color: #070d59;
+    font-size: 1.5rem;
+}
+
+.p-feature {
+    font-size: 1.205rem;
+    line-height: 1.6;
+    color: #150485;
+}
+
+
+/* testimonial */
+
+#testimonial {
+    background-color: #070d59;
+    text-align: center;
+}
+
+.h-testimonial {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    padding-bottom: 8%;
+    color: white;
+    font-weight: bold;
+}
+
+.test {
+    padding: 8% 28%;
+}
+
+.icon2 {
+    color: white;
+}
+
+em {
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 2%;
+}
+
+#process {
+    padding: 8% 10% 1%;
+    text-align: center;
+}
+
+footer {
+    background-image: linear-gradient(white, #069ce2);
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.foot-link {
+    margin: 5%;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.foot-link:hover {
+    color: #070d59;
+    text-decoration: none;
+}
+
+.footer-icon {
+    margin-bottom: 4%;
+}
+
+.ic {
+    margin: auto 4%;
+}
+
+
+/* About Us page */
+
+#about {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.about-1 {
+    margin: 5% auto;
+}
+
+
+/* gallery-section */
+
+#gallery-section {
+    padding: 5% 8%;
+    text-align: center;
+    /* display: flex;
+ flex-wrap: wrap; */
+}
+
+.h1-gal {
+    font-size: 4rem;
+    font-family: 'Great Vibes', cursive;
+    color: #0f3057;
+    padding: 5%;
+    /* justify-content: center; */
+}
+
+.gal {
+    padding: 0;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    padding: 4%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+}
+
+#event-section {
+    padding: 5% 15%;
+}
+
+.event-row {
+    margin: 10% auto;
+}
+
+.event-1 {
+    text-align: right;
+}
+
+.event-2 {
+    text-align: left;
+}
+
+.event-photo {
+    width: 50%;
+    height: 100%;
+}
+
+hr {
+    border-top: solid 1px;
+    border-bottom: none;
+    font-weight: 200;
+    color: #070d59;
+}
+
+#contact-section {
+    padding: 5% 15%;
+}
+
+.reach {
+    text-align: center;
+    padding: 5%;
+}

@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "css"
+		},
+		{
+			"path": "event-pic"
+		},
+		{
+			"path": "fontawesome"
+		},
+		{
+			"path": "gallery-img"
+		},
+		{
+			"path": "photos"
+		},
+		{
+			"path": "project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project"
+	}
+}
